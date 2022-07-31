@@ -1,0 +1,109 @@
+@font-face {
+    font-family: behind;
+    src: url(./assets/Behind\ the\ Painter.ttf);
+}
+
+/* header css */
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FAC213;
+
+}
+
+/* text judul */
+.text-judul{
+    padding: 12px;
+}
+
+a li{
+    color: black;
+}
+a li:hover{
+    color: rgb(252, 252, 252);
+}
+
+/* navigasi css */
+.navigasi{
+    padding: 12px;
+}
+.navigasi ul li {
+    padding: 12px;
+}
+
+.navigasi a{
+    color: black;
+    text-decoration: unset;
+}
+
+/* container content & sidebar */
+.content-sidebar{
+    margin-top: 2%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    
+}
+.aside{
+    width: 20% ;
+    /* border: 1px solid black; */
+    padding: 12px;
+    background-color: #FAC213;
+    border-radius: 12px;
+    margin-left: 1%;
+}
+
+article{
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+.birthday::before{
+    font: var(--fa-font-solid);
+    content: "\f1fd";
+    margin-right: 12px;
+}
+.gender::before{
+    font: var(--fa-font-solid);
+    content: "\f222";
+    margin-right: 12px;
+}
+.location::before{
+    font: var(--fa-font-solid);
+    content: "\f3c5";
+    margin-right: 12px;
+}
+.phone::before{
+    font: var(--fa-font-solid);
+    content: "\f3cd";
+    margin-right: 12px;
+}
+.email::before{
+    font: var(--fa-font-solid);
+    content: "\f0e0";
+    margin-right: 12px;
+}
+.instagram::before{
+    font: var(--fa-font-brands);
+    content: "\f16d";
+    margin-right: 12px;
+}
+.twitter::before{
+    font: var(--fa-font-brands);
+    content: "\f099";
+    margin-right: 12px;
+}
+
+/* css footer */
+footer{
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: black;
+    margin-top: 2%;
+    height: 100px;
+}
+
+
